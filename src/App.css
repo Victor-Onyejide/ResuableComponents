@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -7,6 +9,32 @@
   pointer-events: none;
 }
 
+
+.slider-wrapper button {
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  width: 30px;
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+
+}
+.slider-wrapper button:hover {
+    background-color: black;
+    opacity: 30%;
+    color: white;
+}
+.slider-wrapper .pre{
+  left: 0;
+
+}
+.slider-wrapper .next{
+  right: 0;
+
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
