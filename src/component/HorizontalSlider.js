@@ -94,11 +94,3 @@ export default function HorizontalSlider ({ top, left, spaceBetween, folderName,
 
 }
 
-
-                                /* <img src={require('../asset/pictures1/pic1.png')} style={{width: "100%"}} alt="gallery" /> */
-                                /* {ab_path = path + c } */
-                                /* <img src={require('../asset/pictures1/pic1.png')} style={{width: "100%"}} alt="gallery" /> */
-
-                                // justify-content: space-evenly;
-            // <button className="next" onClick={()=> document.querySelector('.slider-inner').parentElement.scrollLeft +=110 }><i class="fas fa-angle-right"></i></button>      
-                                
